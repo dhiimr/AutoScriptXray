@@ -79,6 +79,8 @@ apt -y install shc
 
 # install wget and curl
 apt -y install wget curl
+echo "deb http://security.ubuntu.com/ubuntu bionic-security main" >> /etc/apt/sources.list
+sudo apt update
 
 #figlet
 apt-get install figlet -y
